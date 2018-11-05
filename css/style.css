@@ -7,3 +7,55 @@
   justify-content:space-between;
   
 }
+
+
+
+	@keyframes -animation{
+                10%{
+                     background-color: yellow;
+                }
+                20%{
+                     background-color: lightblue;
+                }
+                30%{
+                     background-color: silver;
+                }
+                40%{
+                     background-color: #a22a7a;
+                }
+                50%{
+                     background-color: #e60073;
+                } 
+                60%{
+                     background-color: #e600e6;
+                }
+                70%{
+                     background-color: #ff80ff;
+                }
+                80%{
+                     background-color: pink;
+                }
+                90%{
+                     background-color: gray;
+                }
+                100%{
+                     background-color: purple;
+                }
+                110%{
+                     background-color: #d11aff;
+                }
+                120%{
+                     background-color: #7a1f5c;
+                }
+                130%{
+                     background-color: #800060;
+                }
+                140%{
+                    background-color: #b30077;
+                }
+            }
+            body{ 
+              width: none;
+              height: none;
+              animation: -animation 4s infinite linear alternate;
+            }
