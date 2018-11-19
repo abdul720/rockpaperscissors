@@ -57,5 +57,10 @@
             body{ 
               width: none;
               height: none;
-              animation: -animation 4s infinite linear alternate;
+              animation: -animation 8s infinite linear alternate;
             }
+            
+img {
+  height: 500px;
+  width: 500px;
+}
