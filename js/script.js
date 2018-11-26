@@ -15,9 +15,10 @@ function result(){
     cpt = "scissors";
   } else if(cpt <= 80.0){
     cpt = "spock";
-  } else{
+  } else if(cpt <= 100.0){
     cpt = "lizard";
-  } 
+  }
+
   
   
   if(user === "rock"){
